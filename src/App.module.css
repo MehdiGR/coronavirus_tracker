@@ -1,0 +1,18 @@
+.continer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+@media (max-width: 770px) {
+  .continer {
+    margin: 0px 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
